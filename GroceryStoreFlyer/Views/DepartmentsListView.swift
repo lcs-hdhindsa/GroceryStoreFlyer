@@ -13,7 +13,7 @@ struct DepartmentsListView: View {
             
             List(thisWeeksFlyer.departments) { currentDepartment in
                 NavigationLink {
-                    DepartmentDetailView(departmentToShow: currentDepartment)
+                    FoodItemsListView(departmentToShow: currentDepartment)
                 } label: {
                     Text(currentDepartment.name)
                 }

@@ -12,7 +12,7 @@
 		748F3C152D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C142D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift */; };
 		748F3C192D2D8C5D00A57B62 /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C182D2D8C5D00A57B62 /* Flyer.swift */; };
 		748F3C1F2D2D8D6A00A57B62 /* DepartmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */; };
-		748F3C212D2ECE8D00A57B62 /* DepartmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */; };
+		748F3C232D2ED54600A57B62 /* FoodItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C222D2ED54600A57B62 /* FoodItemsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		748F3C142D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFlyerApp.swift; sourceTree = "<group>"; };
 		748F3C182D2D8C5D00A57B62 /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
 		748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsListView.swift; sourceTree = "<group>"; };
-		748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetailView.swift; sourceTree = "<group>"; };
+		748F3C222D2ED54600A57B62 /* FoodItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */,
-				748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */,
+				748F3C222D2ED54600A57B62 /* FoodItemsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				748F3C152D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift in Sources */,
-				748F3C212D2ECE8D00A57B62 /* DepartmentDetailView.swift in Sources */,
+				748F3C232D2ED54600A57B62 /* FoodItemsListView.swift in Sources */,
 				748F3C192D2D8C5D00A57B62 /* Flyer.swift in Sources */,
 				748F3C1F2D2D8D6A00A57B62 /* DepartmentsListView.swift in Sources */,
 			);
