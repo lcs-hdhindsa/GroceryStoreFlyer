@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FoodItemsListView: View {
+struct DepartmentDetailView: View {
     
     let departmentToShow: Department
     
@@ -30,6 +30,6 @@ struct FoodItemsListView: View {
 }
 #Preview {
     NavigationStack {
-        FoodItemsListView(departmentToShow: thisWeeksFlyer.departments[0])
+        DepartmentDetailView(departmentToShow: thisWeeksFlyer.departments[0])
     }
 }
