@@ -11,7 +11,6 @@
 		748F3C112D2D8B5A00A57B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F3C0C2D2D8B5A00A57B62 /* Assets.xcassets */; };
 		748F3C152D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C142D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift */; };
 		748F3C192D2D8C5D00A57B62 /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C182D2D8C5D00A57B62 /* Flyer.swift */; };
-		748F3C1B2D2D8D3D00A57B62 /* FoodItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C1A2D2D8D3D00A57B62 /* FoodItemsListView.swift */; };
 		748F3C1F2D2D8D6A00A57B62 /* DepartmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */; };
 		748F3C212D2ECE8D00A57B62 /* DepartmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		748F3C0C2D2D8B5A00A57B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F3C142D2D8BA400A57B62 /* GroceryStoreFlyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFlyerApp.swift; sourceTree = "<group>"; };
 		748F3C182D2D8C5D00A57B62 /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
-		748F3C1A2D2D8D3D00A57B62 /* FoodItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsListView.swift; sourceTree = "<group>"; };
 		748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsListView.swift; sourceTree = "<group>"; };
 		748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				748F3C1E2D2D8D6A00A57B62 /* DepartmentsListView.swift */,
-				748F3C1A2D2D8D3D00A57B62 /* FoodItemsListView.swift */,
 				748F3C202D2ECE8D00A57B62 /* DepartmentDetailView.swift */,
 			);
 			path = Views;
@@ -169,7 +166,6 @@
 				748F3C212D2ECE8D00A57B62 /* DepartmentDetailView.swift in Sources */,
 				748F3C192D2D8C5D00A57B62 /* Flyer.swift in Sources */,
 				748F3C1F2D2D8D6A00A57B62 /* DepartmentsListView.swift in Sources */,
-				748F3C1B2D2D8D3D00A57B62 /* FoodItemsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
