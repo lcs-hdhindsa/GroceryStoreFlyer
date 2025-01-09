@@ -17,20 +17,28 @@ struct DepartmentDetailView: View {
                 VStack(alignment:.leading) {
                     Text(currentItem.name)
                         .bold()
-                        .font(Font.custom("Times New Roman", size: 27))
+                        .font(Font.custom("Lobster", size: 40))
                     
                     Image(currentItem.image)
                         .resizable()
                         .scaledToFit()
-            
+                    
+                    VStack(alignment:.leading) {
+                        Text(currentItem.price)
+                            .bold()
+                            .font(Font.custom("Lobster", size: 30))
+                          
+                    }
                 }
             }
+            .navigationTitle(departmentToShow.name)
         }
-        .navigationTitle(departmentToShow.name)
     }
 }
-#Preview {
-    NavigationStack {
-        DepartmentDetailView(departmentToShow: thisWeeksFlyer.departments[0])
+    #Preview {
+        NavigationStack {
+            DepartmentDetailView(departmentToShow: thisWeeksFlyer.departments[0])
+        }
     }
-}
+
+
