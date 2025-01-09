@@ -22,6 +22,7 @@ struct DepartmentDetailView: View {
                     Image(currentItem.image)
                         .resizable()
                         .scaledToFit()
+            
                 }
             }
         }
